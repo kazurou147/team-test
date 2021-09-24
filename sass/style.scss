@@ -2,17 +2,23 @@
 
 /* Scss Document */
 
-@import "foundation/index";
-@import "foundation/variable";
-@import "foundation/reset";
-@import "layout/elements";
-@import "layout/content";
-@import "layout/header";
-@import "layout/blog";
-@import "layout/front-page";
-@import "layout/page";
-@import "layout/sidebar";
-@import "layout/footer";
-@import "object/component/**";
-@import "object/project/**";
-@import "object/utility/**";
+//foundation
+@import "foundation/index"; //テーマの名前
+@import "foundation/variable"; //Sassの変数
+@import "foundation/reset"; //reset.css
+@import "foundation/elements"; //基本的な要素 body,aなど
+//layout
+@import "layout/content"; //コンテンツ幅
+@import "layout/header"; //ヘッダーのコーディング
+@import "layout/footer"; //フッターのコーディング
+@import "layout/blog"; //投稿ページのコーディング
+@import "layout/front-page"; //トップページのコーディング
+@import "layout/page"; //個別ページのコーディング
+@import "layout/sidebar"; //サイドバーのコーディング
+//object
+//component
+@import "object/component/**"; //再利用できるパーツ
+//project
+@import "object/project/**"; //下層ページのコーディング
+//utility
+@import "object/utility/**"; //余白、レスポンシブ時の表示・非表示など

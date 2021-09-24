@@ -17,7 +17,7 @@ URL,WordPressログインID,Password,FTP情報をお渡しします。
   
   
 ## 実際の作業について
-themeフォルダをGitとGitHubでバージョン管理します。themeフォルダ以外はバージョン管理の対象外。
+対象のthemeフォルダをGitとGitHubでバージョン管理します。対象のthemeフォルダ以外はバージョン管理の対象外。
 
 ### アップロード
 <ul>

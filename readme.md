@@ -34,6 +34,7 @@ URL,WordPressログインID,Password,FTP情報をお渡しします。
   
   
 ## Sassの説明
+構成はstyle.scssファイルに記載しています。
 
 ### 命名規則
 <ul>
@@ -44,7 +45,7 @@ URL,WordPressログインID,Password,FTP情報をお渡しします。
 </ul>
 
 #### 参考までに
-適当でOK。厳密にやる必要はありません。参考程度としてください。
+厳密にやる必要はありません。参考程度としてください。
 <ul>
 <li>親子関係   ・・・　アンダースコア2つ「__」 ex:p-company__list</li>
 <li>バリエーション違い　　・・・　ハイフン2つ「--」 ex: c-btn01--white</li>
